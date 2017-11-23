@@ -4,10 +4,10 @@ var socket;
 var paymentCycle;
 
 var mainnetProvider = '127.0.0.1';
-var mainnetPrefix = '/insight-api';
+var mainnetPrefix = '/insight-api-chaincoin';
 
 var testnetProvider = '127.0.0.1';
-var testnetPrefix = '/insight-api';
+var testnetPrefix = '/insight-api-chaincoin';
 
 var init = function(network, provider, prefix) {
     var gov = new Bitcore.GovObject.Proposal();
